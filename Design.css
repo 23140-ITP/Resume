@@ -1,0 +1,82 @@
+
+body, h1, h2, h3, p, ul, ol, table {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #FFFFFF; /
+    
+}
+
+.header {
+    text-align: center;
+    background-color: #000033; 
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #FFFFFF; 
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #E6F7FF; 
+    border: 1px solid #000000; 
+}
+
+
+.subsection {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000033; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #000000; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+.skills, .languages {
+    font-style: italic;
+    color: #000000; 
+}
+
+
+.awards {
+    font-weight: bold;
+    color: #000033; 
+}
+
+
+a {
+    color: #000033; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
